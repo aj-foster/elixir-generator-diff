@@ -7,10 +7,13 @@
 # General application configuration
 use Mix.Config
 
+config :my_app,
+  ecto_repos: [MyApp.Repo]
+
 # Configures the endpoint
 config :my_app, MyAppWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "ZnRLGwOUeWk+noTDCXJ0QLcT+8Ruv8jLZlrOEWX1GwtQg6e6m/iYNFtlNnha8gze",
+  secret_key_base: "ioZsGFpVEUwSFhMixrT4LqYPL6qOWwNfA77NqQwXUnxyVczxdsl04vKg1qJ+0q/a",
   render_errors: [view: MyAppWeb.ErrorView, accepts: ~w(json)],
   pubsub: [name: MyApp.PubSub, adapter: Phoenix.PubSub.PG2]
 
