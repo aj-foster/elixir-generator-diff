@@ -1,20 +1,11 @@
-# MyApp
+# Elixir Code Generator Diff
 
-To start your Phoenix server:
+This repository contains commits created by `mix new` and `mix phx.new` with various settings. By
+comparing files across commits, you can see the code that must be added or removed to set up
+various types of applications.
 
-  * Install dependencies with `mix deps.get`
-  * Create and migrate your database with `mix ecto.setup`
-  * Install Node.js dependencies with `cd assets && npm install`
-  * Start Phoenix endpoint with `mix phx.server`
+See the commit messages for the command used to generate each set of code.
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
-## Learn more
-
-  * Official website: http://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Mailing list: http://groups.google.com/group/phoenix-talk
-  * Source: https://github.com/phoenixframework/phoenix
+- [Add a Supervisor to a vanilla Mix project](https://github.com/aj-foster/elixir-generator-diff/compare/650e763..4d9baba)
+- [Add Phoenix to a vanilla Mix project](https://github.com/aj-foster/elixir-generator-diff/compare/650e763..c105c9a)
+- [Remove HTML rendering from a Phoenix project](https://github.com/aj-foster/elixir-generator-diff/compare/c105c9a..1fc365b)
